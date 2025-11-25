@@ -6,8 +6,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PPL - gallery</title>
-
+    
     <link
       rel="stylesheet"
       href="./style.css"
@@ -17,7 +18,8 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Badeen+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Badeen+Display&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
 
 
   </head>
@@ -30,23 +32,54 @@
           <a href="gallery.html"> gallery </a>
       </nav>
   </nav>
-  <main class ="main-gallery-container">
+  <main class="main-gallery-container">
     <section class="box-gallery">
-      <h1 class="box-gallery-title">Push</h1>
-      <img class="exercises" src ="images/push.png">
-      </div>
+      <h1 class = "box-gallery-title">Push</h1>
+      <section class ="box-gallery-content toggleBox">
+        <div class="exercises"><img class="exercises-image" src="images/I01.jpg" alt ="klata1"> flat benchpress</div>
+        <div class="exercises"><img class="exercises-image" src="images/I02.jpg" alt ="klata2"> incline benchpress</div>
+        <div class="exercises"><img class="exercises-image" src="images/I03.jpg" alt ="klata3"> dumbbell press</div>
+        <div class="exercises"><img class="exercises-image" src="images/I04.jpg" alt ="klata4"> dumbbell fly</div>
+        <div class="exercises"><img class="exercises-image" src="images/I05.jpg" alt ="klata5"> seated benchpress</div>
+        <div class="exercises"><img class="exercises-image" src="images/I06.jpg" alt ="klata6">cable fly</div>
+        <div class="exercises"><img class="exercises-image" src="images/I07.jpg" alt ="klata7">close grip benchpress</div>
+        <div class="exercises"><img class="exercises-image" src="images/I08.jpg" alt ="klata8">dumbbell pullover</div>
+      </section>
+      <h1 class = "box-gallery-footer toggleButton">...</h1>
     </section>
     <section class="box-gallery">
-      <h1 class="box-gallery-title">Pull</h1>
-      <img class="exercises" src ="images/pull.png">
+      <h1 class = "box-gallery-title">Pull</h1>
+      <section class ="box-gallery-content toggleBox">
+        <div class="exercises"><img class="exercises-image" src="images/V01.jpg" alt ="plecy1"> bent over row</div>
+        <div class="exercises"><img class="exercises-image" src="images/V02.jpg" alt ="plecy2"> wide-grip pulldown</div>
+        <div class="exercises"><img class="exercises-image" src="images/V03.jpg" alt ="plecy3"> rear delt fly</div>
+        <div class="exercises"><img class="exercises-image" src="images/V04.jpg" alt ="plecy4"> one arm dumbbell row</div>
+        <div class="exercises"><img class="exercises-image" src="images/V05.jpg" alt ="plecy5"> close-grip pulldown</div>
+        <div class="exercises"><img class="exercises-image" src="images/V06.jpg" alt ="plecy6"> seated wide-grip row</div>
+        <div class="exercises"><img class="exercises-image" src="images/V07.jpg" alt ="plecy7"> seated close-grip row</div>
+      </section>
+      <h1 class = "box-gallery-footer toggleButton">...</h1>
     </section>
     <section class="box-gallery">
-      <h1 class="box-gallery-title">Legs</h1>
-      <img class="exercises" src ="images/legs.png">
+      <h1 class = "box-gallery-title">Legs</h1>
+      <section class ="box-gallery-content toggleBox">
+      <div class="exercises"><img class="exercises-image" src="images/IV06.jpg" alt ="nogi1"> squat</div>
+      <div class="exercises"><img class="exercises-image" src="images/IV05.jpg" alt ="nogi2"> legpress</div>
+      <div class="exercises"><img class="exercises-image" src="images/IV04.jpg" alt ="nogi3"> standing legpress</div>
+      <div class="exercises"><img class="exercises-image" src="images/IV03.jpg" alt ="nogi4"> leg extentions</div>
+      <div class="exercises"><img class="exercises-image" src="images/IV02.jpg" alt ="nogi5"> leg curls</div>
+      <div class="exercises"><img class="exercises-image" src="images/IV01.jpg" alt ="nogi6"> calf raises</div>
+      </section>
+      <h1 class = "box-gallery-footer toggleButton">...</h1>
+    </section>
+    <section class = "films">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/uNN62f55EV0?si=SexUxt7U8IarbwBf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mpL7e0_jLXQ?si=KzWr9nK2XkS553uq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
     </section>
   </main>
   <footer class="footer">
     <a href="https://www.facebook.com/Nowy.Jakub/">Jakub Nowak</a>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1" target="_blank"><i class="fab fa-youtube"></i></a>
   </footer>
+  <script src="script.js"></script>
 </body>

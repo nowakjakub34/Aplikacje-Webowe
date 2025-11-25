@@ -8,3 +8,12 @@ document.querySelectorAll('.box-home').forEach(box => {
 
   btn.addEventListener('click', toggleBox);
 });
+
+
+const buttons = document.querySelectorAll(".toggleButton");
+const boxes = document.querySelectorAll(".toggleBox");
+buttons.forEach((button,index)=>{
+  button.addEventListener("click",()=> {
+  boxes[index].classList.toggle("open");
+  });
+});
