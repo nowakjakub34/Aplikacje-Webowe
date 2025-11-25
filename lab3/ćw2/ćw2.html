@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="ćw2.css"
+    />
+  </head>
+  <body>
+    <p> Password Generator</p>
+    <form>
+        <label>Minimal password length
+            <input type="number" id="minLength" min="1" value="8" required>
+        </label>
+
+        <label>Maximal password length
+            <input type="number" id="maxLength" min="1" value="8" required>
+        </label>
+
+        <label>Containing CAPITAL LETTERS?
+            <input type="checkbox" id ="upperCase">
+        </label>
+        
+        <label>Containing special characters?
+            <input type="checkbox" id ="specialCharacters">
+        </label>
+        <button id="generate" type="submit">Generate Password</button>
+    </form>
+ 
+    <script src="ćw2.js"></script>
+  </body>

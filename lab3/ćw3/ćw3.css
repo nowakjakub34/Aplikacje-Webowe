@@ -1,0 +1,10 @@
+tbody td {
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    border-radius: 10px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing:0 10px;
+}
